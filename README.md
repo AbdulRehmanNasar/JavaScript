@@ -1,2 +1,2 @@
 # JavaScript
-In this repo I going to push the code of basic practice to till projects.
+In this repo, I will push the code of basic practice to till projects.
