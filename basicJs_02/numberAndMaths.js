@@ -64,3 +64,4 @@ console.log(event.toLocaleString('en-GB', { timeZone: 'UTC' }));
 
 //++++++++++++++++++++++++++++++++++++   MATHS   ++++++++++++++++++++++++++++++++++++++++++++++++++++
 console.log(balance6);
+console.log(balance6);
