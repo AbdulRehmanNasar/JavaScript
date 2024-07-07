@@ -63,4 +63,37 @@ console.log(event.toLocaleString('en-GB', { timeZone: 'UTC' }));
 
 
 //++++++++++++++++++++++++++++++++++++   MATHS   ++++++++++++++++++++++++++++++++++++++++++++++++++++
-console.log(balance6);
+
+//The Math namespace object contains static properties and methods for mathematical constants and functions
+console.log(Math);
+// Math contains static method, used below
+
+//abs()-> used to take absolute of negative values
+console.log(Math.abs(-4));
+
+//ceil()-> used to take ceiling value
+console.log(Math.ceil(4.2));
+
+//floor()-> used to take floor value
+console.log(Math.floor(4.9));
+
+//round()-> used to take round up of value
+console.log(Math.round(7.2));
+console.log(Math.round(9.5));
+
+//min() and max()-> used to find min and max values
+console.log(Math.min(4, 9,1,20, 50, 7));
+console.log(Math.max(4, 9,1,20, 50, 7));
+
+//random()-> used to take random values bw [0-1) but we can modify this method to define range
+console.log(Math.random());
+
+// some modifications in random()
+console.log(Math.random()*10);
+// adding 1 to avoid 0 and using floor to avoid value above 10
+console.log(Math.floor(Math.random()*10)+1);
+// modifying random() to getting random value bw defined range
+// range is (10-50)
+const min = 10
+const max = 50
+console.log(Math.floor(Math.random()*(max-min+1))+min);
